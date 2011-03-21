@@ -1,0 +1,88 @@
+body{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+html{
+	background-color: #FEFFFE;
+    background: url(../images/fondo.jpg) top repeat-x;
+    background: -moz-linear-gradient(200px 200px 90deg,#FEFFFE,#8D8D8D);
+    background: -webkit-gradient(linear, 0% 0%, 0% 200px, from(#8D8D8D), to(#FEFFFE));
+    background-repeat: no-repeat;
+	
+}
+
+.centro{
+	width: 400px;
+	margin: 50px auto;
+	/*border: 1px #000 solid;*/
+	background: white;
+	padding: 10px;
+	overflow: auto;
+	-moz-box-shadow: 0 0 10px 5px #888;
+	-webkit-box-shadow: 0 0 10px 5px#888;
+	box-shadow: 0 0 10px 5px #888;
+}
+
+.centro label{
+	position:relative;
+	float:left;
+	width: 180px;
+	text-align: right;
+	padding-right: 10px;
+	margin-bottom: 5px;
+}
+
+.centro input, select{
+	position:relative;
+	float:left;
+	width: 190px;
+	text-align: left;
+	margin-bottom: 5px;
+}
+
+#footer{
+	position: absolute;
+	bottom: 10px;
+	left: 0px;
+	width: 100%;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	border-bottom: 1px #000 dashed;
+	color: grey;
+}
+
+a:hover{
+	border-bottom: 1px #000 solid;
+}
+.grid{
+	margin: 5 auto;
+	width: 960px;
+}
+.cell{background:grey;border:1px solid black;float:left;font-size: 20pt;text-align: center;vertical-align: middle;position:relative;}
+.filled{background:white;border:1px solid black;float:left;font-size: 20pt;text-align: center;vertical-align: middle;position:relative;}
+.wit{
+	position: absolute;
+	z-index: 100;
+	opacity: 0.8;
+	top:0;
+	left:0;
+	filter: alpha(opacity = 80);
+	width:100%;
+	height: 100%;
+	background:white;
+}
+.WireIt-Terminal{margin:30% 40%}
+.warning{
+	background: url(../icons/PNG-24/Warning.png) top left no-repeat;
+	color: red;
+	padding-left: 0px;
+	width: 400px;
+	margin: 0 auto;
+	height: 25px;
+}
+
